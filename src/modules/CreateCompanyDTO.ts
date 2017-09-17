@@ -11,7 +11,7 @@ export class CreateCompanyDTO {
     readonly zipAddress: string;
     @Length(5, 50)
     readonly streetAddress: string;
-    @Length(5, 50)
+    @Length(1, 50)
     readonly streetNumber: string;
     @Length(3, 50)
     readonly city: string;
